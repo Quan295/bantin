@@ -1,0 +1,76 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: aliceblue;
+    font-size: medium;
+}
+
+h1 {
+    color: #00698f; /* Màu tiêu đề chính */
+    text-align: center; /* Căn giữa tiêu đề */
+}
+
+h2, h3, h4 {
+    font-size: large;
+    color: #008000; /* Màu tiêu đề phụ */
+}
+
+p {
+    font-size: medium;
+    color: #333; /* Màu chữ của đoạn văn */
+}
+
+img {
+    border: 1px solid #ddd; /* Viền của hình ảnh */
+    padding: 5px; /* Khoảng cách của hình ảnh */
+}
+
+ul {
+    list-style: none; /* Loại bỏ dấu đầu dòng */
+    padding: 0; /* Khoảng cách của danh sách */
+    margin: 0; /* Khoảng cách của danh sách */
+}
+
+li {
+    margin-bottom: 10px; /* Khoảng cách dưới của mục */
+}
+
+a {
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    color: #337ab7; /* Màu của liên kết */
+}
+
+a:hover {
+    color: #23527c; /* Màu của liên kết khi di chuột qua */
+}
+
+/* Sử dụng flex để căn giữa nội dung */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Thêm màu nền cho các phần tử */
+.featured-articles {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Thêm màu nền cho hình ảnh */
+.image {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
